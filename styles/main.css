@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-color: black;
+  background-color: #BA5A31;
 }
 
 .page-wrapper {
@@ -20,14 +20,14 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #e4aa84;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   letter-spacing: -0.04em;
 }
 
 p {
-  color: rgb(99, 172, 94);
+  color: #F2FBE0;
   font-family: "Comfortaa", cursive;
   font-size: 1.5em;
   margin: 15px 0;
