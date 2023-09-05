@@ -1,5 +1,7 @@
 # Landing Page
 
+https://amandaputney.github.io/landing-page/
+
 ## Stack
 
 1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
