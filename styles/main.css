@@ -48,12 +48,23 @@ p {
   background-color: #86a539;
 }
 
+/* #footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background: url('../icons/LeafBanner_Slim.jpg');
+
+} */
+
 #footer {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 40px;
+  width: 100%;
   background: url('../icons/LeafBanner_Slim.jpg');
   background-attachment: fixed;
 }
