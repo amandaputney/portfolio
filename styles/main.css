@@ -63,8 +63,8 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 40px;
+  height: 80px;
   width: 100%;
-  background: url('../icons/LeafBanner_Slim.jpg');
+  background: url('../icons/LeafBanner.jpg');
   background-attachment: fixed;
 }
