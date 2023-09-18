@@ -187,8 +187,8 @@ textarea {
   color: #fff;
   background: linear-gradient(to right, rgba(185, 59, 0, 0.8), rgba(245, 184, 128, 0.8)), url(../../assets/svg/common-bg.svg);
   background-position: center;
-  height: 100vh;
-  min-height: 80rem;
+  height: 60vh;
+  min-height: 60rem;
   max-height: 120rem;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
@@ -276,6 +276,7 @@ textarea {
         margin-bottom: 4rem; }
 
 .projects__row {
+
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-gap: 5rem;
@@ -447,12 +448,20 @@ textarea {
   margin-bottom: 6rem; }
 
 .project-details__showcase-img {
-  width: 100%; }
+  /* width: 100%;  */
+  justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+    
+}
 
 .project-details__content-main {
   width: 100%;
   max-width: 70rem;
-  margin: auto; }
+  margin: auto; 
+
+}
 
 .project-details__desc {
   margin: 0 0 7rem 0; }
