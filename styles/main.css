@@ -11,6 +11,7 @@ body {
   display: grid;
   place-items: center;
   background-color: #BA5A31;
+  margin-bottom: 80px;
 }
 
 .page-wrapper {
@@ -46,6 +47,27 @@ p {
 .icon:hover {
   cursor: pointer;
   background-color: #86a539;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
+  /* Center vertically */
+  height: 100vh;
+  /* Ensure the container takes up the full viewport height */
+}
+
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Center the icons horizontally within the container */
+  margin-top: 20px;
+  /* Adjust the margin to separate content and icons */
 }
 
 /* #footer {
