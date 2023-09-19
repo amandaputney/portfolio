@@ -1,18 +1,13 @@
-# Landing Page
+# Professional Portfolio
 
-https://amandaputney.github.io/landing-page/
+https://amandaputney.github.io/portfolio
 
 ## Stack
 
 1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 3. [Font Awesome](https://fontawesome.com/)
-
-## Installation
-
-1. `git clone https://github.com/madzadev/landing-page.git`
-
-2. Open `index.html`. That's it!
+4. 4. JavaScript
 
 ## License
 
