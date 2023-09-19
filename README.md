@@ -7,7 +7,7 @@ https://amandaputney.github.io/portfolio
 1. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 2. [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 3. [Font Awesome](https://fontawesome.com/)
-4. 4. JavaScript
+4. [JavaScript](https://www.javascript.com/)
 
 ## License
 
