@@ -66,6 +66,7 @@ textarea {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 3px;
+
   text-align: center; }
   @media only screen and (max-width: 37.5em) {
     .heading-primary {
@@ -445,7 +446,9 @@ textarea {
 
 .project-details__showcase-img-cont {
   width: 100%;
-  margin-bottom: 6rem; }
+  text-align: center;
+  margin-bottom: 6rem;
+ }
 
 .project-details__showcase-img {
   /* width: 100%;  */
