@@ -10,8 +10,10 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background-color: #BA5A31;
-  margin-bottom: 100px;
+  background-color: #000000;
+  margin-bottom: 80px;
+  background: url('../assets/png/background.png');
+  background-size: cover;
 }
 
 .page-wrapper {
@@ -21,14 +23,15 @@ body {
 }
 
 h1 {
-  color: #e4aa84;
+  color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 5em;
   letter-spacing: -0.04em;
 }
 
 p {
-  color: #c6cf67;
+  color: rgb(64, 204, 167);
+  text-shadow: 1px 1px 1px rgba(71, 71, 71, 0.857);
   font-family: "Comfortaa", cursive;
   font-size: 1.5em;
   margin: 15px 0;
@@ -46,7 +49,8 @@ p {
 
 .icon:hover {
   cursor: pointer;
-  background-color: #86a539;
+  background-color: rgb(254, 163, 59);
+  /* color: black; */
 }
 
 .page-container {
@@ -72,13 +76,13 @@ p {
 
 
 
-#footer {
+/* #footer {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 70px;
+  height: 80px;
   width: 100%;
-  background: url('../icons/LeafBanner.jpg');
+  background: url('../assets/png/landingpage.png');
   background-attachment: fixed;
-}
+} */
