@@ -37,3 +37,30 @@ const headerLogoContainer = document.querySelector('.header__logo-container')
     location.href = 'index.html'
   })
 
+
+
+
+function openEmailClient() {
+  const email = 'amandasueputney@gmail.com';
+  const subject = 'Contact Request';
+  const body = 'Hello Amanda,\n\nI would like to get in touch with you.';
+  const mailtoUrl = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href = mailtoUrl;
+}
+
+document.getElementById('contactButton').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default link behavior
+  
+  const email = 'amandasueputney@gmail.com';
+  const subject = 'Contact Request';
+  const body = 'Hello Amanda,\n\nI would like to get in touch with you.';
+  const mailtoUrl = `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  // Create a hidden anchor element and trigger a click to open the email client
+  const anchor = document.createElement('a');
+  anchor.href = mailtoUrl;
+  anchor.style.display = 'none';
+  document.body.appendChild(anchor);
+  anchor.click();
+  document.body.removeChild(anchor);
+});
