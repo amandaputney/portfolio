@@ -301,6 +301,7 @@ textarea {
   .projects__row-img {
     width: 80%;
     display: block;
+    align-content: center;
     object-fit: cover; }
   .projects__row-content {
     padding: 2rem 0;
