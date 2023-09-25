@@ -283,8 +283,8 @@ textarea {
 .projects__row {
   color: rgb(0, 0, 0);
   display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
   margin-bottom: 11rem; }
   @media only screen and (max-width: 56.25em) {
     .projects__row {
@@ -299,10 +299,11 @@ textarea {
   .projects__row-img-cont {
     overflow: hidden; }
   .projects__row-img {
-    width: 80%;
-    display: block;
-    align-content: center;
-    object-fit: cover; }
+   max-width: 30rem;
+   max-height: fit-content;
+   display: block;
+   margin: 0 auto;
+  object-fit: cover; }
   .projects__row-content {
     padding: 2rem 0;
     display: flex;
