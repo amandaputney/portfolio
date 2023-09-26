@@ -96,7 +96,7 @@ textarea {
   margin-bottom: 3.5rem;
   position: relative; }
   .heading-sec__main--lt {
-    color: #000000; 
+    color: #e3e3e3; 
     /* text-shadow: 1px 1px 1px rgba(240, 244, 181, 0.857);} */}
     .heading-sec__main--lt::after {
       content: '';
@@ -128,7 +128,7 @@ textarea {
     .heading-sec__sub {
       font-size: 1.8rem; } }
   .heading-sec__sub--lt {
-    color: #303030; }
+    color: #dbd6d6; }
 
 .heading-sm {
   font-size: 2.2rem;
