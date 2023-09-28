@@ -1,4 +1,4 @@
-# Professional Portfolio
+# Amanda Putney's Professional Portfolio
 
 https://amandaputney.github.io/portfolio
 
