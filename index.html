@@ -1,40 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>ASP</title>
+    <meta name="description" content="Amanda Putney Portfolio" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="icons/favicon.ico" />
-    <link rel="stylesheet" href="icons/font-awesome/css/all.css" />
-    <link rel="stylesheet" href="css/landingpage.css" />
-  </head>
-  <body>
-    <div class="page-wrapper">
-      <div class="content-wrapper">
-        <h1>Hi, I'm Amanda</h1>
-        <p>
-          Software Engineer <span class="divider"> | </span> Front End Developer
-          <span class="divider"> | </span> Climate Advocate
-        </p>
-        <div class="icon-container">
-        <a href="https://github.com/amandaputney" target="_blank">
-          <i class="icon fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/amanda-s-putney/" target="_blank" >
-          <i class="icon fab fa-linkedin-in fa-2x"></i>
-        </a>
-        <a href="mailto:amandasueputney@gmail.com" >
-          <i class="icon fas fa-envelope fa-2x"></i>
-        </a>
-        <a href="portfolio.html" >
-          <!-- <i class="fa-2x"> -->
-          <img src="icons/icon_white.png" class="icon"></i>
-        </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content"> 
+            <div class="header__logo-container">
+                <div class="header__logo-img-cont">
+                    <img src="./assets/jpeg/avatar.jpg" alt="Amanda" class="header__logo-img" />
+                </div>
+                <span class="header__logo-sub">Amanda Putney</span>
+            </div>
+            <div class="header__main">
+                <ul class="header__links">
+                    <li class="header__link-wrapper">
+                        <a href="./landingpage.html" class="header__link"> Home </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html" class="header__link">About </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#projects" class="header__link">
+                            Projects
+                        </a>
+                    </li>
+                    <li class="header__link-wrapper">
+                        <a href="./index.html#contact" class="header__link"> Contact </a>
+                    </li>
+                </ul>
+                
+<!------- Hamburger Menu ---------->
+                <div class="header__main-ham-menu-cont">
+                    <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+                    <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- <img src="icons/icon_e4aa84.png" alt="icon"> -->
-    </div>
-    <div id="footer">
-    </div>
-  </body>
+        <div class="header__sm-menu">
+            <div class="header__sm-menu-content">
+                <ul class="header__sm-menu-links">
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html"> Home </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#about"> About </a>
+                    </li>
+
+                    <li class="header__sm-menu-link">
+                        <a href="./index.html#projects"> Projects </a>
+                    </li>
+                    <li class="header__sm-menu-link">
+                            <a href="./index.html#contact"> Contact </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </header>
+
+<!------------------------------------- WELCOME  ------------------------>
+
+    <section class="home-hero">
+        <div class="home-hero__content">
+            <h1 class="heading-primary">Welcome to my Portfolio</h1>
+            <div class="home-hero__info">
+                <p class="text-primary">
+                    Thank you for taking the time to look!
+                </p>
+                <p class="text-primary">
+                   <i> Note: This site is currently in development</i>
+                </p>
+            </div>
+            <div class="home-hero__cta">
+                <a href="./index.html#projects" class="btn btn--bg">Projects</a>
+            </div>
+        </div>
+        <div class="home-hero__socials">
+            <div class="home-hero__social">
+                <a href="https://www.linkedin.com/in/amanda-putney-60845273" label="LinkedIn" target="_blank" class="home-hero__social-icon-link">
+                    <img src="./assets/png/linkedin-ico.png" alt="icon" class="home-hero__social-icon" />LinkedIn
+                </a>
+            </div>
+            <div class="home-hero__social">
+                <a href="https://github.com/amandaputney" label="GitHub" class="home-hero__social-icon-link" target="_blank">
+                    <img src="./assets/png/github-ico.png" alt="icon" class="home-hero__social-icon" />GitHub
+                </a>
+            </div>
+        </div>
+        <div class="home-hero__mouse-scroll-cont">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+<!------------------------------------- ABOUT  ------------------------>
+
+
+    <section id="about" class="about sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <img src="./assets/jpeg/avatar.jpg" alt="Amanda" class="about-img" />
+                <span class="heading-sec__main">
+                </span>
+                <span class="heading-sec__sub">
+                                        I am deeply passionate about leveraging technology to address our planet's ecological
+                                        challenges and am equipped with a comprehensive understanding of web development technologies
+                                        and best practices. My ability to rapidly learn and apply new concepts will allow me to adapt
+                                        quickly to your tech stack and contribute effectively to your development projects.
+                </span>
+            </h2>
+            <div class="about__content">
+                <div class="about__content-main">
+                    <h3 class="about__content-title">About Me</h3>
+                    <div class="about__content-details">
+                        <p class="about__content-details-para">
+                            Hey! It's
+                            <strong>Amanda</strong>
+                            and I'm a <strong> Fullstack Software Engineer & Frontend Web Developer </strong> located in
+                            Los Angeles. I am a new mom and an old rocker who loves blending diverse worlds into innovative solutions. With a strong foundation in ecological and geospatial services, I bring an analytical mindset to software engineering, where I craft elegant code to solve complex problems.
+                            </p>
+                            <p class="about__content-details-para">
+                            My journey began in the world of organic farming, where I learned the importance of <strong>nurturing growth and sustainability</strong> through volunteering on farms internationally. This ethos now extends to my code, as I am committed to writing software that not only functions efficiently but also leaves a <strong>positive impact on the digital ecosystem</strong>.
+                        
+                            </p>
+                            <p class="about__content-details-para">
+                            My ability to balance responsibilities, adapt to challenges, and maintain a sense of humor is reflected in my approach to coding and problem-solving.
+                            
+                            Beyond code, I enjoy the art of cooking, where precision and creativity unite. Much like coding, I approach recipes with <strong>attention to detail</strong> and the <strong>joy of experimentation</strong>.
+                        </p>
+                        <p class="about__content-details-para">
+                            In the world of software engineering, I see myself as more than just a developer; I thrive as a <strong>versatile problem solver</strong> who embraces change, diversity, and creativity. I am focused on crafting solutions that align with the dynamic nature of the world—blending innovation, coherence, and curiosty. 
+                        </p>
+                    </div>
+                    <!-- <a href="#" class="btn btn--med btn--theme dynamicBgClr" id="contactButton">Contact amandasueputney@gmail.com</a>
+                    <!-- <a href="mailto:amandasueputney@gmail.com?subject=Contact%20Request&body=Hello%20Amanda,%0D%0A%0D%0AI%20would%20like%20to%20get%20in%20touch%20with%20you."  onclick="openEmailClient(); return false;" class="btn btn--med btn--theme dynamicBgClr">Contact amandasueputney@gmail.com</a>
+                    <a href="mailto:amandasueputney@gmail.com" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+                    <a href="mailto:amandasueputney@gmail.com?subject=Contact%20Request&body=Hello%20Amanda,%0D%0A%0D%0AI%20would%20like%20to%20get%20in%20touch%20with%20you." class="btn btn--med btn--theme dynamicBgClr">Contact</a> --> 
+                </div>
+                <div class="about__content-skills">
+                    <h3 class="about__content-title">My Skills</h3>
+                    <div class="skills">
+                        <div class="skills__skill">JavaScript</div>
+                        <div class="skills__skill">HTML</div>
+                        <div class="skills__skill">Python</div>
+                        <div class="skills__skill">CSS</div>
+                        <div class="skills__skill">VSCode</div>
+                        <div class="skills__skill">React</div>
+                        <div class="skills__skill">SASS</div>
+                        <div class="skills__skill">GIT</div>
+                        <div class="skills__skill">Express</div>
+                        <div class="skills__skill">SQL</div>
+                        <div class="skills__skill">MongoDB</div>
+                        <div class="skills__skill">EJS</div>
+                        <div class="skills__skill">DTL</div>
+                        <div class="skills__skill">ArcGIS</div>
+                        <div class="skills__skill">QGIS</div>
+                        <div class="skills__skill">Django</div>
+                        <div class="skills__skill">Graphic Design</div>
+                        <div class="skills__skill">Adobe Suite</div>
+                        <div class="skills__skill">Microsoft Suite</div>
+                        <div class="skills__skill">Google Suite</div>
+                        <div class="skills__skill">RESTful Routing</div>
+                        <div class="skills__skill">JSX</div>
+                        <div class="skills__skill">NodeJS</div>
+                        <div class="skills__skill">GIT Version Control</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+<!------------------------------------- PROJECTS  ------------------------>
+
+    <section id="projects" class="projects sec-pad">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-bg">
+                <span class="heading-sec__main">Projects</span>
+                <span class="heading-sec__sub">
+                    
+                </span>
+            </h2>
+<!---------- CROPIFY ---------->
+            <div class="projects__content">
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <a href="./cropify.html">
+                            <img src="assets/png/Cropify_Logo_NO_WHITE.png"
+                                 alt="Cropify Logo" class="projects__row-img" 
+                                loading="lazy" /> 
+                        </a>
+                </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Cropify</h3>
+                        <p class="projects__row-content-desc">
+                            Full-stack Single-page MERN Application for farmers & gardeners
+                        </p>
+                        <a href="./cropify.html" class="btn btn--med btn--theme dynamicBgClr">Learn More</a>
+                    </div>
+                </div>
+
+<!---------- DINGOES ---------->
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <a href="./dingoes.html">
+                        <img src="./assets/png/Dingoes.gif" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+                        </a>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Dingo Dingers</h3>
+                        <p class="projects__row-content-desc">
+                            MEN-stack App for an up & coming Los Angeles Baseball Team with full CRUD and comment functionality
+                        </p>
+                        <a href="./dingoes.html" class="btn btn--med btn--theme dynamicBgClr">Learn More</a>
+                    </div>
+                </div>
+
+<!---------- FMN ---------->
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <a href="./forget-me-not.html">
+                        <img src="./assets/png/forgetmenot.PNG" alt="Software Screenshot"class="projects__row-img" loading="lazy" />
+                            </a>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Forget Me Not</h3>
+                        <p class="projects__row-content-desc">
+                            Python, Django, PostgreSQL Food Waste Reduction Application
+                        </p>
+                        <a href="./forget-me-not.html" class="btn btn--med btn--theme dynamicBgClr">Learn More</a>
+                    </div>
+                </div>
+
+<!---------- Snake Eyes ---------->
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <a href="./snake-eyes.html">
+                        <img src="./assets/png/snakeeyes.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+                            </a>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Snake Eyes</h3>
+                        <p class="projects__row-content-desc">
+                            Vanilla JavaScript Multi Player Browser Dice Game
+                        </p>
+                        <a href="./snake-eyes.html" class="btn btn--med btn--theme dynamicBgClr">Learn More</a>
+                    </div>
+                </div>
+
+<!---------- C&C ---------->
+
+                <div class="projects__row">
+                    <div class="projects__row-img-cont">
+                        <a href="./crops-and-climate.html">
+                        <img src="./assets/png/crops.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+                            </a>
+                    </div>
+                    <div class="projects__row-content">
+                        <h3 class="projects__row-content-title">Crops & Climate</h3>
+                        <p class="projects__row-content-desc">
+                            Python Web Application for tracking global crops impacted by the climate crisis using Django & PostgreSQL
+                        </p>
+                        <a href="./crops-and-climate.html" class="btn btn--med btn--theme dynamicBgClr">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------- CONTACT  ------------------------>
+    
+    <section id="contact" class="contact sec-pad dynamicBg">
+        <div class="main-container">
+            <h2 class="heading heading-sec heading-sec__mb-med">
+                <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                <span class="heading-sec__sub heading-sec__sub--lt">
+                    Feel free to contact me via the form below or here:  amandasueputney@gmail.com
+                </span>
+            </h2>
+            <div class="contact__form-container">
+                <form action="https://formsubmit.co/f72e34ae2621bdb36d12d6521be2cb09" method="POST" class="contact__form">
+    <!-------- Honey Pot  -------->
+                <input type="text" name="_honey" style="display: none;"> 
+    <!-------- Disable Captcha -------->
+                <input type="hidden" name="_captcha" value="false">
+    <!-------- Redirect -------->
+                <input type="hidden" name="_next" value="https://amandaputney.github.io/portfolio/success.html">
+
+
+
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="name">Name</label>
+                        <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" required/>
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="email">Email</label>
+                        <input required placeholder="Enter Your Email" type="text" class="contact__form-input" name="email" id="email" required/>
+                    </div>
+                    <div class="contact__form-field">
+                        <label class="contact__form-label" for="message">Message</label>
+                        <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--theme contact__btn">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<!------------------------------------- FOOTER  ------------------------>
+
+    <footer class="main-footer">
+        <div class="main-container">
+            <div class="main-footer__upper">
+                <div class="main-footer__row main-footer__row-1">
+                    <h2 class="heading heading-sm main-footer__heading-sm">
+                        <span>Social</span>
+                    </h2>
+                    <div class="main-footer__social-cont">
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amanda-s-putney/">
+                            <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://github.com/amandaputney">
+                            <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+                        </a>
+                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/asp_takes_pics/?hl=en">
+                            <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a target="_blank" rel="noreferrer" href="landingpage.html">
+                            <img class="main-footer__icon main-footer__icon--mr-none" src="icons/icon_white.png" alt="icon" />
+                        </a>
+                    </div>
+                </div>
+                <div class="main-footer__row main-footer__row-2">
+                    <h4 class="heading heading-sm text-lt">Amanda Putney</h4>
+                    <p class="main-footer__short-desc">
+                        <strong>FULL STACK SOFTWARE ENGINEER LOCATED IN LOS ANGELES, CALIFORNIA</strong>
+                    </p>
+                    <p class="main-footer__short-desc">
+                        <a href="mailto:amandasueputney@gmail.com">
+                            <strong>amandasueputney@gmail.com</strong>
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+
 </html>

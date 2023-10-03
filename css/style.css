@@ -46,7 +46,8 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit; 
+  margin: auto 0;}
 
 li {
   list-style: none; }
@@ -189,7 +190,6 @@ textarea {
 
 .home-hero {
   color: #fff;
-  /* background: linear-gradient(to right,rgb(217, 20, 20),rgb(231, 240, 162)), url(../../assets/svg/common-bg.svg); */
   background-color: #000000;
   background-position: center;
   height: 60vh;
@@ -222,6 +222,7 @@ textarea {
   .home-hero__social-icon-link {
     width: 100%;
     display: block;
+    margin: auto 0;
     padding: 1.2rem;
     border-bottom: 2px solid #eee;
     transition: background .3s; }
@@ -282,11 +283,8 @@ textarea {
 
 .about-img {
   width: 250px;
-  /* Adjust the width as needed */
   height: 250px;
-  /* Adjust the height as needed */
   border-radius: 50%;
-  /* Creates a circular shape */
   object-fit: cover;
   /* Maintain aspect ratio and cover the container */
   position: relative;
@@ -461,7 +459,6 @@ textarea {
 .project-cs-hero {
   color: #fff;
   background-color: #000;
-  /* background: linear-gradient(to right, rgba(228, 120, 26, 0.8), rgba(215, 219, 223, 0.8)), url(../../assets/svg/common-bg.svg); */
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -508,10 +505,7 @@ textarea {
 .project-details__showcase-img {
   /* width: 100%;  */
   justify-content: center;
-    /* Horizontally center */
-    align-items: center;
-    /* Vertically center */
-    
+  align-items: center;    
 }
 
 .project-details__content-main {
