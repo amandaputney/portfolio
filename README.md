@@ -1,6 +1,6 @@
 # Amanda Putney's Professional Portfolio
 
-https://amandaputney.github.io/portfolio
+[Live Link](https://amandaputney.github.io/portfolio)
 
 ## Stack
 
