@@ -784,7 +784,8 @@ textarea {
   display: block;
   margin: 0 auto;
   font-family: 'Neonderthaw', cursive;
-  font-size: 80px;
+  text-align: center;
+  font-size: 70px;
   color: #ffd5e0;
   font-weight: 400;
   letter-spacing: 2px;
