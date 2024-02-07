@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Neonderthaw&display=swap');
+
 /*
 0 - 600px:      Phone
 600 - 900px:    Tablet portrait
@@ -772,3 +774,52 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+/* THE LOVE MOTEL */
+
+    
+.neon {
+  max-width: 40rem;
+  max-height: fit-content;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Neonderthaw', cursive;
+  font-size: 80px;
+  color: #ffd5e0;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-shadow: 1px 0px 4px #ffd5db, 2px 0px 4px #ffd5de, 3px 0px 4px #d46182, 2px 0px 3px #d42c2c, 2px 3px 15px #d42c56, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #e0f3e9, 40px 0vw 200px #e0f3e9;
+        }
+    
+        .flicker-slow {
+          animation: flicker 3s linear infinite;
+        }
+    
+        .flicker-fast {
+          animation: flicker 1s linear infinite;
+        }
+    
+        @keyframes flicker {
+    
+          0%,
+          19.999%,
+          22%,
+          62.999%,
+          64%,
+          64.999%,
+          70%,
+          100% {
+    
+            opacity: .99;
+    
+          }
+    
+          20%,
+          21.999%,
+          63%,
+          63.999%,
+          65%,
+          69.999% {
+            opacity: 0.4;
+          }
+        }
